@@ -1,6 +1,6 @@
 # ReadBatteryLevel
 Reads battery level of Corsair Void Pro headphones from iCUE's memory.
-iCUE must be installed and running for this tool to work.
+<br>iCUE must be installed and running for this tool to work.
 
 ## Known Issues:
 When the headphones are turned off the last known battery level will be shown.
