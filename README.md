@@ -5,6 +5,12 @@ Reads battery level of Corsair Void Pro headphones from iCUE's memory.
 ## Known Issues:
 When the headphones are turned off the last known battery level will be shown.
 
+## Disclaimer:
+Use my program at your own risk! I am not responsible for any damages or unwanted behavior.
+<br>I am not a programmer, if I need a functionality I try to build it myself making big use of google search, stackoverflow, github, etc.
+<br>I most probably don't know if I make horrible, hidden mistakes.
+<br>Therefore, please, be careful or review the code yourself.
+
 ## Available options and their *default values*:
 *Notice: the configuration file will be created on launch if it doesn’t exist yet*
 
