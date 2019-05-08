@@ -29,7 +29,7 @@ Use my program at your own risk! I am not responsible for any damages or unwante
 |ResultFilePath=|Custom file path for the result file. Result file contains either battery level or error code|
 
 ## Error Codes:
-998 = error reading processes memory, threadstack.exe is missing or the process does not exist
+998 = error reading processes memory or the process does not exist
 <br>997 = battery level out of range, either headphones are not connected or offsets are incorrect
 <br>996 = threadstack.exe unexpected output or given UseThreadstackNumber doesn't exist
 <br>995 = threadstack.exe missing
