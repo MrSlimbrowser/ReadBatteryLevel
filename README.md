@@ -1,5 +1,5 @@
 # ReadBatteryLevel
-Reads battery level of Corsair Void Pro headphones from iCUE's memory.
+Reads battery level of Corsair Void Pro headphones from iCUE's memory and writes it to a file.
 <br>iCUE must be installed and running for this tool to work.
 
 ## Known Issues:
