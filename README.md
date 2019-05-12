@@ -27,10 +27,9 @@ Use my program at your own risk! I am not a programmer by profession nor am I re
 |ResultFilePath=|Custom file path for the result file. Result file contains either battery level or error code|
 
 ## Error Codes:
-998 = error reading processes memory or the process does not exist
+998 = error reading processes memory, the process does not exist or threadstack.exe is missing
 <br>997 = battery level out of range, either headphones are not connected or offsets are incorrect
 <br>996 = threadstack.exe unexpected output or given UseThreadstackNumber doesn't exist
-<br>995 = threadstack.exe missing
 
 ## Finding Offsets:
 Use CheatEngine to find a suitable pointer. There are many tutorials available online. Double click on the pointer to show the offsets and use them as shown in the picture below.
