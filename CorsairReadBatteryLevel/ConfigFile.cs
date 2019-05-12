@@ -106,31 +106,7 @@ namespace ReadBatteryLevel
         {
             try
             {
-                //string[] lines = { "Example config file, change values to fit your needs." , "If you choose not to let the program calculate the base address then NegativeOffset will be ignored."
-                //        , "In case of an error the program might return 999 in it's result file."
-                //        , "I am not responsible for any unwanted behavior, use the program at your own risk!", ""
-                //        , "Processname=iCUE", "CalculateBaseAddress=true", "BaseAddress=0x0", "NegativeOffset=0xBE8"
-                //        , "Offset1=0x10", "Offset2=0x4", "Offset3=0xC", "Offset4=0x18", "Offset5=0x34" };
-
                 string[] lines = {
-                   "Welcome to this little tool. Use it to read your headphones battery level from iCUE's memory.",
-                   "Be aware that this tool is NOT an official tool from Corsair!",
-                   "",
-                   "Thanks to everyone who helped me creating this by providing helpful code online.",
-                   "Thanks to user1274820 for providing the answer over there https://stackoverflow.com/questions/28620186/using-pointers-found-in-cheat-engine-in-c-sharp",
-                   "Special thanks to MakeMEK@github for creating the cheatengine - threadstack - finder(threadstack.exe).I hope it is okay for him that I use it for my program too.",
-                   "Check out his github: https://github.com/makemek/cheatengine-threadstack-finder",
-                   "and his explanation on what his program does https://forum.cheatengine.org/viewtopic.php?p=5638945&sid=a9dad6c894a943ff2674d349a1de259c#5638945",
-                   "Special thanks to the creators of cheatengine for their awesome work: https://www.cheatengine.org/",
-                   "",
-                   "",
-                   "DISCLAIMER:",
-                   "Use my program at your own risk! I am not responsible for any damages or unwanted behavior.",
-                   "I am not a programmer, if I need a functionality I try to build it myself making big use of google search, stackoverflow, github, etc.",
-                   "I most probably don't know if I make horrible, hidden mistakes.",
-                   "Therefore, please, be careful or review the code yourself.",
-                   "",
-                   "",
                    "Processname=iCUE",
                    "CalculateBaseAddress=true",
                    "useThreadstackNumber=0",
@@ -147,7 +123,6 @@ namespace ReadBatteryLevel
             }
             catch
             {
-                
             }
         }
 

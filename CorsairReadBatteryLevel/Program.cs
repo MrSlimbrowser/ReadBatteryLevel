@@ -40,6 +40,11 @@ namespace ReadBatteryLevel
         {
             try
             {
+                if (!File.Exists("threadstack.exe")) 
+                {
+                    throw new Exception();
+                }
+
                 Process process = Process.GetProcessesByName("iCUE")[0];
                 IntPtr processHandle = OpenProcess(PROCESS_WM_READ, false, process.Id);
 
@@ -107,11 +112,11 @@ namespace ReadBatteryLevel
                         return int.Parse(line.Substring(2), System.Globalization.NumberStyles.HexNumber);
                     }
                 }
-                return 996;
+                throw new Exception();
             }
             catch
             {
-                return 995;
+                return 0;
             }
         }
     }
