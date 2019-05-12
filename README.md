@@ -1,14 +1,12 @@
 # ReadBatteryLevel
-Reads battery level of Corsair Void Pro headphones from iCUE's memory and writes it to a file.
+Reads battery level of Corsair Void Pro headphones from iCUE's memory and writes it to a file. 
 <br>iCUE must be installed and running for this tool to work.
 
 ## Known Issues:
 When the headphones are turned off the last known battery level will be shown.
 
 ## Disclaimer:
-Use my program at your own risk! I am not responsible for any damages or unwanted behavior.
-<br>I am not a programmer, if I need a functionality I try to build it myself making big use of google search, stackoverflow, github, etc.
-<br>I most probably don't know if I make horrible, hidden mistakes.
+Use my program at your own risk! I am not a programmer by profession nor am I responsible for any damages or unwanted behavior.
 <br>Therefore, please, be careful or review the code yourself.
 
 ## Available options and their *default values*:
@@ -35,16 +33,14 @@ Use my program at your own risk! I am not responsible for any damages or unwante
 <br>995 = threadstack.exe missing
 
 ## Finding Offsets:
-Use CheatEngine to find a suitable pointer. There are many tutorials how to do that online, just pick any. Once you got the pointer double click on it to show the offsets and use them as shown in the picture below
-<br>Notice: The battery level from iCUE is a value between 0 and 100 where something around 100 (often 97/98/99/) shows up when the headphones are plugged in.
+Use CheatEngine to find a suitable pointer. There are many tutorials available online. Double click on the pointer to show the offsets and use them as shown in the picture below.
+<br>*Notice: The battery level read from iCUE is a value between 0 and 100. When the headphones are plugged in the value will be between 95 and 100.*
 <br>
 ![Image](https://mrslimbrowser.github.io/images/ReadBatteryLevel/FindOffsets.png)
 
 ## Thanks
-Thanks to everyone who helped me creating this by providing helpful code online.
-<p>Thanks to user1274820 for providing the answer over there https://stackoverflow.com/questions/28620186/using-pointers-found-in-cheat-engine-in-c-sharp
-<p>Special thanks to MakeMEK@github for creating the cheatengine - threadstack - finder(threadstack.exe).I hope it is okay for him that I use it for my program too.
-<br>Check out his github: https://github.com/makemek/cheatengine-threadstack-finder
-<br>and his explanation on what his program does https://forum.cheatengine.org/viewtopic.php?p=5638945&sid=a9dad6c894a943ff2674d349a1de259c#5638945
-<p>Special thanks to the creators of cheatengine for their awesome work: https://www.cheatengine.org/
+Thanks to user1274820 for providing the answer on [this topic](https://stackoverflow.com/questions/28620186/using-pointers-found-in-cheat-engine-in-c-sharp)
+<br>Special thanks to MakeMEK@github for creating the cheatengine-threadstack-finder (threadstack.exe). Hope it was okay to use your tool. Check out [his github](https://github.com/makemek/cheatengine-threadstack-finder) and his explanation on how this tool works [at the cheatengine forum](https://forum.cheatengine.org/viewtopic.php?p=5638945&sid=a9dad6c894a943ff2674d349a1de259c#5638945).
+<br>Special thanks to the creators of cheatengine for their awesome work.
+
 
