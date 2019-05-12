@@ -39,8 +39,8 @@ Use CheatEngine to find a suitable pointer. There are many tutorials available o
 ![Image](https://mrslimbrowser.github.io/images/ReadBatteryLevel/FindOffsets.png)
 
 ## Thanks
-Thanks to user1274820 for providing the answer on this topic:
-<br>Special thanks to MakeMEK@github for creating the cheatengine-threadstack-finder (threadstack.exe). Hope it was okay to use your tool. Check out his github and his explanation on how this tool works at the cheatengine forum.
+Thanks to user1274820 for providing the answer on [this topic](https://stackoverflow.com/questions/28620186/using-pointers-found-in-cheat-engine-in-c-sharp)
+<br>Special thanks to MakeMEK@github for creating the cheatengine-threadstack-finder (threadstack.exe). Hope it was okay to use your tool. Check out [his github](https://github.com/makemek/cheatengine-threadstack-finder) and his explanation on how this tool works [at the cheatengine forum](https://forum.cheatengine.org/viewtopic.php?p=5638945&sid=a9dad6c894a943ff2674d349a1de259c#5638945).
 <br>Special thanks to the creators of cheatengine for their awesome work.
 
 
