@@ -32,7 +32,7 @@ Use my program at your own risk! I am not a programmer by profession nor am I re
 <br>996 = threadstack.exe unexpected output or given UseThreadstackNumber doesn't exist
 
 ## Finding Offsets:
-Use CheatEngine to find a suitable pointer. There are many tutorials available online. Double click on the pointer to show the offsets and use them as shown in the picture below.
+In case the provided default offsets don't work for you, use CheatEngine to find a suitable pointer. There are many tutorials available online. Double click on the pointer to show the offsets and use them as shown in the picture below.
 <br>*Notice: The battery level read from iCUE is a value between 0 and 100. When the headphones are plugged in the value will be between 95 and 100.*
 <br>
 ![Image](https://mrslimbrowser.github.io/images/ReadBatteryLevel/FindOffsets.png)
