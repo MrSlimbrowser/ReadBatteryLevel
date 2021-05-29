@@ -3,7 +3,8 @@ Reads battery level of Corsair Void Pro headphones from iCUE's memory and writes
 <br>iCUE must be installed and running for this tool to work.
 
 ## Known Issues:
-When the headphones are turned off the last known battery level will be shown.
+- When the headphones are turned off the last known battery level will be shown.
+- Apparently iCUE 4.x now is a 64bit process. Since MakeMEKs cheatengine-threadstack-finder doesn't support 64bit processes the calculated base address is wrong. Therefore, this program can't get the correct result anymore. At the moment, you can still download icue 3.38.61 on the corsair website though.
 
 ## Disclaimer:
 Use my program at your own risk! I am not a programmer by profession nor am I responsible for any damages or unwanted behavior.
